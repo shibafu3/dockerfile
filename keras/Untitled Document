@@ -1,0 +1,1 @@
+sudo docker container run --name chokkan --runtime=nvidia -it -e DISPLAY:$DISPLAY -v /tmp/.X11-unix/:/tmp/.X11-unix/ -v /home/shiba/Documents/deeplearning/:/home/shiba/Documents/deeplearning/ -p 6006:8080 keraslearn
